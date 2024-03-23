@@ -13,13 +13,17 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
+  <!-- Custom fonts -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
+  <!-- Stylesheets -->
   <link href="css/ePortfolio.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 
 </head>
 
@@ -75,16 +79,550 @@
       </ul>
     </div>
   </nav>
-
   <div class="container-fluid p-0">
     <section class="unit-section p-3 p-lg-5 d-flex align-items-center" id="unit-1">
       <div class="w-100">
         <h2 class="mb-5">Unit 1: Introduction to Secure Software Development</h2>
         <div class="mb-5">
-          <div class="unit-objectives">
-            <h3 class="mb-0">What we did in unit 1</h3>
-          </div>
+          <section class="accordion">
+            <input type="checkbox" name="collapse" id="handle1" checked="checked">
+            <h2 class="handle">
+              <label for="handle1">Unit 1 Module Objectives</label>
+            </h2>
+            <div class="content">
+              <ol>
+                <li>Integrate project management methodologies to a software development project</li>
+                <li>Become proficient in UML</li>
+                <li>Discover what it means to be risk-aware</li>
+              </ol>
+            </div>
+          </section>
         </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse2" id="handle2">
+            <h2 class="handle">
+              <label for="handle2">Standardisation bodies in software development</label>
+            </h2>
+            <div class="content">
+              <ul>
+                <li>W3C</li>
+                <li>ISOC</li>
+                <li>NIST</li>
+                <li>ISO/IEC</li>
+                <li>IETD</li>
+                <li>IEEE</li>
+                <li>OMG</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse3" id="handle3">
+            <h2 class="handle">
+              <label for="handle3">OWASP</label>
+            </h2>
+            <div class="content">
+              <h3>OWASP Top 10</h3>
+              <ol>
+                <li>A01: Broken Access Control</li>
+                <li>A02: Cryptographic Failures</li>
+                <li>A03: Injection</li>
+                <li>A04: Insecure Design</li>
+                <li>A05: Security Misconfiguration</li>
+                <li>A06: Vulnerable and Outdated Components </li>
+                <li>A07: Identification and Authentication Failures</li>
+                <li>A08: Software and Data Integrity Failures</li>
+                <li>A09: Security Logging and Monitoring Failures</li>
+                <li>A10: Server-Side Request Forgery</li>
+              </ol>
+              <h3>OWASP Top 10 Proactive Controls</h3>
+              <ol>
+                <li>C1: Define security requirements</li>
+                <li>C2: Leverage security frameworks and libraries</li>
+                <li>C3: Secure database access</li>
+                <li>C4: Encode and escape data</li>
+                <li>C5: Validate all inputs</li>
+                <li>C6: Implement digital identity</li>
+                <li>C7: Enforce access controls</li>
+                <li>C8: Protect data everywhere</li>
+                <li>C9: Implement security logging and monitoring</li>
+                <li>C10: Handle all errors and exceptions</li>
+              </ol>
+              <h3>Weaknesses identified by OWASP</h3>
+              <ul>
+                <li>Broken Authentication</li>
+                <li>Sensitive Data Exposure</li>
+                <li>XML External Entities</li>
+                <li>Broken Access Control</li>
+                <li>Security Misconfiguration</li>
+                <li>Cross-site Scripting</li>
+                <li>Insecure Deserialization</li>
+                <li>Using Components with Known Vulnerabilities</li>
+                <li>Insufficient Logging and Monitoring</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse4" id="handle4">
+            <h2 class="handle">
+              <label for="handle4">Agile Manifesto</label>
+            </h2>
+            <div class="content">
+              <ul>
+                <li>Prioritise Individuals and interactions over processes and tools</li>
+                <li>Prioritise working software over comprehensive documentation</li>
+                <li>Prioritise customer collaboration over contract negotiation</li>
+                <li>Prioritise responding to change over following a plan</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse5" id="handle5">
+            <h2 class="handle">
+              <label for="handle5">Types of Agile approaches</label>
+            </h2>
+            <div class="content">
+              <ol>
+                <li>Scrum</li>
+                <li>Paired Programming</li>
+                <li>DSDM</li>
+                <li>TDD</li>
+              </ol>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse6" id="handle6">
+            <h2 class="handle">
+              <label for="handle6">Sprints in Scrum</label>
+            </h2>
+            <div class="content">
+              <img src="img/Sprint.png" alt="Scrum Sprint Stages">
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse7" id="handle7">
+            <h2 class="handle">
+              <label for="handle7">Integrating Security into Agile</label>
+            </h2>
+            <div class="content">
+              <ol>
+                <li>Identify important security concerns</li>
+                <li>Identify mechanisms to respond to these concerns</li>
+                <li>Integrate security into each timeboxed sprint</li>
+                <li>Create methods to test each security concern at the end of a sprint</li>
+                <li>Test for security problems at the end of each sprint</li>
+              </ol>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse8" id="handle8">
+            <h2 class="handle">
+              <label for="handle8">Waterfall model</label>
+            </h2>
+            <div class="content">
+              <img src="img/WaterfallModel.png" alt="Waterfall Model Stages">
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse9" id="handle9">
+            <h2 class="handle">
+              <label for="handle9">Secure Scrum</label>
+            </h2>
+            <div class="content">
+              <img src="img/SecureScrum.png" alt="Secure Scrum Stages">
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse10" id="handle10">
+            <h2 class="handle">
+              <label for="handle10">TOGAF-SABSA</label>
+            </h2>
+            <div class="content">
+              <img src="img/TOGAF-SABSA.png" alt="TOGAF-SABSA Architecture Development Model">
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse11" id="handle11">
+            <h2 class="handle">
+              <label for="handle11">UML Models</label>
+            </h2>
+            <div class="content">
+              <ul>
+                <li>Use case diagram</li>
+                <li>Sequence diagram</li>
+                <li>Class diagram</li>
+                <li>Activity diagram</li>
+                <li>Object diagram</li>
+                <li>Composite structure diagram</li>
+                <li>State machine diagram</li>
+                <li>Deployment diagram</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse12" id="handle12">
+            <h2 class="handle">
+              <label for="handle12">Knowledge Check</label>
+            </h2>
+            <div class="content">
+              <ol>
+                <li>What information is represented in a use case diagram?</li>
+                <p>User stories</p>
+                <li>What can change throughout the software development life cycle?</li>
+                <p>Requirements</p>
+                <li>True or False: OWASP is an acronym of Open Web Active Security Project?</li>
+                <p>False</p>
+              </ol>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse13" id="handle13">
+            <h2 class="handle">
+              <label for="handle13">Software Architecture</label>
+            </h2>
+            <div class="content">
+              <h3>What is software architecture?</h3>
+              <p>Software architecture is a description of the subsystems of components of a software system and the relationships between them.</p>
+              <h3>Aspects of Software Architecture</h3>
+              <ul>
+                <li>System</li>
+                <li>Structure</li>
+                <li>Environment</li>
+                <li>Stakeholder</li>
+              </ul>
+              <h3>Type of Software Architects</h3>
+              <ul>
+                <li>Technical architect</li>
+                <li>Security architect</li>
+                <li>Information architect</li>
+                <li>Infrastructure architect</li>
+                <li>Solution architect</li>
+                <li>Enterprise architect</li>
+                <li>System architect</li>
+              </ul>
+              <h3>Architectural quality attributes</h3>
+              <ul>
+                <li>Modifiability</li>
+                <li>Testability</li>
+                <li>Scalability and performance</li>
+                <li>Availability</li>
+                <li>Security</li>
+                <li>Deployability</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse14" id="handle14">
+            <h2 class="handle">
+              <label for="handle14">Information Security Metrics</label>
+            </h2>
+            <div class="content">
+              <ul>
+                <li>Confidentiality</li>
+                <li>Integrity</li>
+                <li>Availability</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse15" id="handle15">
+            <h2 class="handle">
+              <label for="handle15">Secure Code Process</label>
+            </h2>
+            <div class="content">
+              <ol>
+                <li>Define areas of interest in the application (what parts are critical and need to be secured?)</li>
+                <li>Analysis of software architecture</li>
+                <li>Review of implementation details</li>
+                <li>Verification of logic and syntax</li>
+                <li>Whitebox/Unit testing</li>
+                <li>Blackbox testing</li>
+              </ol>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse16" id="handle16">
+            <h2 class="handle">
+              <label for="handle16">Threat Modelling Process</label>
+            </h2>
+            <div class="content">
+              <ol>
+                <li>Identify important assets</li>
+                <li>Decomposing the application into components</li>
+                <li>Identifying and categorising threats to each asset or component</li>
+                <li>Ranking the threats based on an establish risk model</li>
+                <li>Developing threat mitigation strategies</li>
+              </ol>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse17" id="handle17">
+            <h2 class="handle">
+              <label for="handle17">Common Security Vulnerabilities</label>
+            </h2>
+            <div class="content">
+              <ul>
+                <li>Overflow errors</li>
+                <li>Unvalidated/Improperly validated inputs</li>
+                <li>Improper access control</li>
+                <li>Cryptography issues</li>
+                <li>Information leaks</li>
+                <li>Open port access</li>
+                <li>Open access to a web server</li>
+                <li>Open access to files, folders, and databases</li>
+                <li>Race conditions</li>
+                <li>System clock drifts</li>
+                <li>Insecure file/folder operations</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse18" id="handle18">
+            <h2 class="handle">
+              <label for="handle18">Types of attacks</label>
+            </h2>
+            <div class="content">
+              <ul>
+                <li>Server-Side Template Injection</li>
+                <li>Denial of Service Attack</li>
+                <li>Cross-Site Scripting</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse19" id="handle19">
+            <h2 class="handle">
+              <label for="handle19">Integrating security to Python programs</label>
+            </h2>
+            <div class="content">
+              <ul>
+                <li>Use raw input instead of input for reading input</li>
+                <li>Do type conversions and validation manually</li>
+                <li>Add exception handling</li>
+                <li>Don’t use eval or exec</li>
+                <li>Don’t use pickle for serialisation use JSON or YAML</li>
+                <li>Guard again integer overflows</li>
+                <li>Use template strings for string formatting</li>
+                <li>Use with when operating with files to ensure they are closed</li>
+                <li>Validate sensitive information like passwords</li>
+                <li>Avoid storing sensitive data local to functions</li>
+                <li>Avoid race conditions and thread deadlock</li>
+                <li>Keep your system up to date</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse20" id="handle20">
+            <h2 class="handle">
+              <label for="handle20">Secure Coding Strategies</label>
+            </h2>
+            <div class="content">
+              <ol>
+                <li>Validate input</li>
+                <li>Keep it simple</li>
+                <li>Principle of least privilege</li>
+                <li>Sanitize data</li>
+                <li>Authorize access</li>
+                <li>Perform effective QA</li>
+                <li>Practise defence in layers</li>
+                <li>Define Security requirements</li>
+                <li>Model threats</li>
+                <li>Architect and design for security policies</li>
+              </ol>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse21" id="handle21">
+            <h2 class="handle">
+              <label for="handle21">Software Design Patterns</label>
+            </h2>
+            <div class="content">
+              <ul>
+                <li>Adapter Pattern</li>
+                <li>Observer Pattern</li>
+                <li>Strategy Pattern</li>
+                <li>Visitor Pattern</li>
+                <li>Abstract Factory Pattern</li>
+                <li>Template Pattern</li>
+                <li>Singleton</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse22" id="handle22">
+            <h2 class="handle">
+              <label for="handle22">Collaborative discussion one initial post</label>
+            </h2>
+            <div class="content">
+              <h3>Discussion Topic</h3>
+              <p>Open source tools are available to create UML diagrams, some are listed below. This list is not exhaustive. The benefit of using such tools is that they ensure that the recognised UML components are used to represent the parts of the model correctly.</p>
+              <ul>
+                <li>Visual Paradigm</li>
+                <li>Sequence Diagram</li>
+                <li>Umbrello</li>
+              </ul>
+              <p>Choose an open-source UML tool from the list above.  Select one of the coding weaknesses which have been identified by OWASP and create a flowchart of the steps which may have led to the weakness occurring. Which UML models might you use to present the design of your proposed software, and why are they the most appropriate choice(s)?</p>
+              <h3>What does OWASP do?</h3>
+              <p>OWASP are an organisation that provide you with a checklist of best practices on how to improve software security.</p>
+              <h3>OWASP 2021 Top 10 (OWASP, 2021)</h3>
+              <ol>
+                <li>A01: Broken Access Control</li>
+                <li>A02: Cryptographic Failures</li>
+                <li>A03: Injection</li>
+                <li>A04: Insecure Design</li>
+                <li>A05: Security Misconfiguration</li>
+                <li>A06: Vulnerable and Outdated Components </li>
+                <li>A07: Identification and Authentication Failures</li>
+                <li>A08: Software and Data Integrity Failures</li>
+                <li>A09: Security Logging and Monitoring Failures</li>
+                <li>A10: Server-Side Request Forgery</li>
+              </ol>
+              <h3>The OWASP Top 10 Proactive Controls (OWASP, 2018)</h3>
+              <ol>
+                <li>C1: Define security requirements</li>
+                <li>C2: Leverage security frameworks and libraries</li>
+                <li>C3: Secure database access</li>
+                <li>C4: Encode and escape data</li>
+                <li>C5: Validate all inputs</li>
+                <li>C6: Implement digital identity</li>
+                <li>C7: Enforce access controls</li>
+                <li>C8: Protect data everywhere</li>
+                <li>C9: Implement security logging and monitoring</li>
+                <li>C10: Handle all errors and exceptions</li>
+              </ol>
+              <h3>What I have selected from the OWASP Top 10</h3>
+              <p>From the OWASP top 10 2021 I decided to focus on Injection because there lots of different types of injection ranging from command injection to SQL injection.</p>
+              <h3>What is an injection attack?</h3>
+              <p>IBM define injection attacks as a type of attack that allows an attacker to inject code into a program or query or inject malware onto a computer in order to execute remote commands that can read or modify a database, or change data on a web site. (IBM, N.D)</p>
+              <h3>What is an SQL Injection attack?</h3>
+              <p>IBM defines SQL Injection as an attack that takes advantage of the SQL syntax to inject commands that can read or modify a database, or compromise the meaning of the original SQL query. (IBM, N.D)</p>
+              <h3>How to prevent injection attacks</h3>
+              <p>The OWASP top 10 proactive controls suggests to escape data and validate all inputs in order to prevent all types of injection attacks (OWASP, 2018).</p>
+              <h3>How to prevent SQL Injection attacks</h3>
+              <p>OWASP suggests 4 different ways to defending against SQL injection option 1 is to use prepared statements, option 2 is to use properly constructed stored procedure, option 3 is to all list input validation and option 4 is to escape all user supplied input (OWASP, N.D).</p>
+              <h3>What is a prepared statement?</h3>
+              <p>Prepared statements are parameterized queries that force the developer to define all SQL code first and pass in each parameter to the query later.</p>
+              <h3>Example of an SQL Injection query</h3>
+              <p>SELECT * FROM Users WHERE UserId = 1 OR 1=1;</p>
+              <p>This query would return all rows for the user table as 1=1 is always true.</p>
+              <p>This table could contain confidential information such as the first name, last name and address information about all users for a particular service which a hacker could sell for financial gain or use to steal someone’s identity.</p>
+              <h3>SQL Injection Flow chart</h3>
+              <img src="img/SQL%20Injection%20Flowchart.png" alt="Preventing SQL Injection Flowchart">
+              <h3>Creating a prepared statement in Python</h3>
+              <pre><code class="python">import mysql.connector
+
+try:
+    connection = mysql.connector.connect(host='localhost',
+                                         database='python_db',
+                                         user='admin',
+                                         password='root')
+
+    cursor = connection.cursor(prepared=True)
+    sql_update_query = "UPDATE Users SET Password = %s WHERE UserId = %s"
+
+    data_tuple = ('qwerty', 1)
+    cursor.execute(sql_update_query, data_tuple)
+    connection.commit()
+    print("User table updated using the prepared statement")
+
+except mysql.connector.Error as error:
+    print("parameterized query failed {}".format(error))
+finally:
+    if connection.is_connected():
+        cursor.close()
+        connection.close()
+        print("MySQL connection is closed")</code></pre>
+              <h3>Types of SQL Injection attacks</h3>
+              <p>The classic types of SQL injection attacks are Tautology based attacks, piggy-backed queries, logically incorrect attacks, union query, inference attack, stored procedure attack, blind injection, timing attacks, Compound SQL Injection attacks, Fast Flux SQL Injection attacks (P. Kumar and R. K. Pateriya, 2012)</p>
+              <img src="img/SQL%20Injection.png" alt="SQL Injection">
+              <h3>Reference List</h3>
+              <p>OWASP. (2021). OWASP Top 10:2021. Available from: https://owasp.org/Top10/ [Accessed 16th March 2024]</p>
+              <p>OWASP. (2018). OWASP Proactive Controls. Available from: https://owasp.org/www-project-proactive-controls/ [Accessed 16th March 2024]</p>
+              <p>OWASP. (N.D). SQL Injection Prevention Cheat Sheet. Available from: https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html [Accessed 16th March 2024]</p>
+              <p>IBM. (N.D). Injection attacks. Available from: https://www.ibm.com/docs/en/snips/4.6.0?topic=categories-injection-attacks [Accessed 16th March 2024]</p>
+              <p>P. Kumar and R. K. Pateriya. (2012) ‘A survey on SQL injection attacks, detection and prevention techniques’, <i>Third International Conference on Computing, Communication and Networking Technologies.</i> Coimbatore, India, 2012. America: IEE. pp. 1-5, doi: 10.1109/ICCCNT.2012.6396096.</p>
+              <h3>Comment 1</h3>
+              <p>Thank you, Sam<p>
+              <p>"Who are OWASP?" -> "Who is OWASP?" OWASP is a single body, therefore, who is.</p>
+              <p>I would like to see a little more discussion coming through in relation to the attack type identified. Discussion will help to reveal your knowledge and understanding, which is an assessed element of the ePortfolio into which this collaborative discussion will be placed.</p>
+              <p>The flow chart is fine. There is an opportunity to include the examples of the types of queries which might be entered when a SQL attack is being executed. This will just help to make it a little more precise and, again, showcase your knowledge and understanding.</p>
+              <p>Best wishes,</p>
+              <p>Cathryn</p>
+              <h3>Comment 2</h3>
+              <p>Hi Samuel,</p>
+              <p>Thank you for sharing your initial post. Placing headings on each main topic makes it easy to overview the content of your post.</p>
+              <p>As for the prevention of Injection attacks, perhaps, it would be clearer to the readers if you identify the exact OWASP proactive control or method you are proposing. You can do this by including the code with the protocol name (e.g. C4: Encode and Escape Data). Did you suggest other OWASP proactive controls to prevent an Injection attack besides C4? In my opinion, it is worth considering the ‘Limit’ SQL control as another preventive measure, as W3Schools (N.D.) explain that they restrict how much data can be taken from databases.</p>
+              <p>It was a good choice to provide the readers the code for the section “Creating a prepared statement in Python”. Personally, I do not have an idea how to do this. Therefore, it would be helpful for me to refer back to this in the future in case there is a need for me to write prepared statements for projects that would require security against the weakness you have highlighted.</p>
+              <p>Kind regards,</p>
+              <p>Patricia</p>
+              <p>References:</p>
+              <p>W3Schools (N.D.), SQL SELECT TOP, LIMIT, FETCH FIRST ROWS ONLY, ROWNUM. Available from https://www.w3schools.com/sql/sql_top.asp [Accessed 22 March 2024].</p>
+            </div>
+          </section>
+        </div>
+        <div class="mb-5">
+          <section class="accordion">
+            <input type="checkbox" name="collapse23" id="handle23">
+            <h2 class="handle">
+              <label for="handle23">Unit 1 Reflection</label>
+            </h2>
+            <div class="content">
+              <h3>Description</h3>
+              <p>In this section, I will be using the Gibbs Reflective Cycle to reflect on my experience of the Secure Software Development module, specifically Unit 1: Introduction to Secure Software Development.</p>
+              <h3>Feelings</h3>
+              <p>While alot of the content covered in this unit, I already knew improving my knowledge can only be considered a good thing as it will help me become a more well-rounded developer. I believe continual development to be one of the most important things anyone can do in their professional lives and gaining a greater understanding of a topic is vital for ones professional development.</p>
+              <h3>Evaluation</h3>
+              <p>The main development I made throughout this unit was in regards to my knowledge of different UML models. Previously I had a basic knowledge of UML after completing the Object Oriented Programming Module but it was something I wasn't confident in so it was good that I got to go over them again so that I could understand the different UML models better.</p>
+              <h3>Analysis</h3>
+              <p>Considering how an attacker may target a system through a series of UML diagrams helps to mitigte security risks by reducing the attack surface a hacker can exploit to gain control of a system.</p>
+              <h3>Conclusion</h3>
+              <p>In this unit, I reinforced my knowledge of OWASP. During my internship I have been exposed to OWASP as I have completed training on the fundamentals of OWASP and we have automation in place that raises OWASP bugs. As OWASP is important to my job knowing it better could help improve my job performance. After completing this unit, my understanding of UML models improved. I believe this will be beneficial in my career as for my large intern project which I have to present next month I made UML diagrams as part of the project plan so understanding them better allowed me to make higher quality diagrams. This module signifacntly improved my knowledge of project management methodologies as previously I didn't know how to incorporate security into projects. Lastly, as a vulnerable adult, learning how organisations manage risks associated with vulnerable employees can help me apply their practices to myself to avoid being potentially exploited in the future.</p>
+              <h3>Action plan</h3>
+              <p>I am going to think actively about how I can write more secure code and I am going to create UML models prior to beginning any project I work on.</p>
+            </div>
+          </section>
+        </div>
+
       </div>
     </section>
     <hr class="m-0">
