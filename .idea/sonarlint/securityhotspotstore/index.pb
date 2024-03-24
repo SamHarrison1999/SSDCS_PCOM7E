@@ -14,7 +14,3 @@ U
 %vendor/fontawesome-free/css/solid.css,0\4\04bd9b8e715b808bfaffc8b68931b582e4f853da
 S
 #vendor/fontawesome-free/css/all.css,9\8\98ec56de818431292d9f243fd04df76180bebc35
-D
-css/font awesome.css,b\c\bc0dbdcec189d7a3e979a6e90bdd8c6caf2b2d43
-J
-css/font-awesome-icons.css,d\5\d5d09412dd6784a278f20ff4ab4ad717bf4f9665
